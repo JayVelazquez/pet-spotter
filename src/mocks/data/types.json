@@ -1,0 +1,33 @@
+{
+  "types": [
+    {
+      "name": "Dog",
+      "_links": {
+        "self": { "href": "/v2/types/dog" },
+        "breeds": { "href": "/v2/types/dog/breeds" }
+      }
+    },
+    {
+      "name": "Cat",
+      "_links": {
+        "self": { "href": "/v2/types/cat" },
+        "breeds": { "href": "/v2/types/cat/breeds" }
+      }
+    },
+    {
+      "name": "Rabbit",
+      "_links": {
+        "self": { "href": "/v2/types/rabbit" },
+        "breeds": { "href": "/v2/types/rabbit/breeds" }
+      }
+    },
+    {
+      "name": "Bird",
+      "_links": {
+        "self": { "href": "/v2/types/bird" },
+        "breeds": { "href": "/v2/types/bird/breeds" }
+      }
+    }
+  ]
+}
+
